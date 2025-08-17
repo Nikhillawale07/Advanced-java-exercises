@@ -1,0 +1,14 @@
+package com.dao;
+
+import java.sql.Connection;
+
+import com.util.MyDatabase;
+
+public class EmployeeDao {
+	
+	public int insertEmployee(Employee e1)
+	{
+		
+	}
+}
+	

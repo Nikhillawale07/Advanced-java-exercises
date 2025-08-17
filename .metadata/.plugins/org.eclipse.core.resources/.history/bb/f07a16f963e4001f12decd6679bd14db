@@ -1,0 +1,13 @@
+package com.dao;
+
+import java.sql.Connection;
+
+import com.util.MyDatabase;
+
+public class EmployeeDao {
+	int check=0;
+	Connection con=MyDatabase.myConnection();
+	
+	return check;
+}
+	

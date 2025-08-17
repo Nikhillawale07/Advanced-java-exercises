@@ -1,0 +1,15 @@
+package com.Dao;
+import com.model.Student;
+public class StudentDao {
+	public int insertStudent(Student s)
+	{
+		int check=0;
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return check;
+	}
+}

@@ -1,0 +1,12 @@
+package com.model;
+
+import com.dao.EmployeeDao;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	EmployeeDao ed =new EmployeeDao();
+    	System.out.println(ed.deleteEmployeeById(1));
+    	
+}

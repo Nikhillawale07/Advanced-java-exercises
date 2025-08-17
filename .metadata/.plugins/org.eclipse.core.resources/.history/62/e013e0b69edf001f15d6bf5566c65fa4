@@ -1,0 +1,8 @@
+package com.Dao;
+
+public class StudentDao {
+	public int insertStudent(Student s)
+	{
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.model;
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	EmployeeDao ed =new EmployeeDao();
+    	Employee e1 = new Employee();
+    	e1.setName("Aman shah");
+    	e1.setDesignation("HR");
+    	e1.setCompany("TCS");
+    	e1.setSalary("30000");
+    }
+}

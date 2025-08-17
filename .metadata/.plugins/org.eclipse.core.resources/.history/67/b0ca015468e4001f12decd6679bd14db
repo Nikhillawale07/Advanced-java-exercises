@@ -1,0 +1,18 @@
+package com.demo;
+
+import com.dao.EmployeeDao;
+import com.model.Employee;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       EmployeeDao ed = new EmployeeDao();
+       Employee e = new Employee();
+       e.setName("gagan patil");
+       e.setDesignation("ui developer");
+       e.setCompany("tcs");
+       e.setSalary(10000);
+       
+    }
+}

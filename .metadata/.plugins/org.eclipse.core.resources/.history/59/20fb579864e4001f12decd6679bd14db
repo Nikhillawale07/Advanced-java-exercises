@@ -1,0 +1,19 @@
+package com.dao;
+
+import java.sql.Connection;
+
+import com.util.MyDatabase;
+
+public class EmployeeDao {
+	
+	public int insertEmployee(Employee e1)
+	{
+		int check=0;
+		Connection con=MyDatabase.myConnection();
+		String sql="insert into Employee(name,designation,company,salary)values(?,?,?,?)";
+		PrepapredStatement pst=null;
+		pst=con.prepareStatement(sql;)
+		return check;
+	}
+}
+	

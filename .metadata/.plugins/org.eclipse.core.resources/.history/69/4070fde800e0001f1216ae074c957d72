@@ -1,0 +1,17 @@
+package com.model;
+
+import com.dao.EmployeeDao;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	EmployeeDao ed =new EmployeeDao();
+    	Employee e1 = new Employee();
+    	e1.setName("dinesh pathak");
+    	e1.setDesignation("Manager");
+    	e1.setCompany("Wipro");
+    	e1.setSalary(400000.00);
+    	System.out.println(ed.insertEmployee(e1));
+    }
+}

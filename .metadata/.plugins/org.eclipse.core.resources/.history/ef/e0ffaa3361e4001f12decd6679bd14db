@@ -1,0 +1,17 @@
+package com.util;
+
+import java.sql.Connection;
+
+public class MyDatabase {
+	public static Connection myConnection()
+	{
+		connection con=null;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

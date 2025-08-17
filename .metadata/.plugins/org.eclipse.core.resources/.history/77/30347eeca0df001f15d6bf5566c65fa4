@@ -1,0 +1,10 @@
+package com.Dao;
+import com.model.Student;
+public class StudentDao {
+	public int insertStudent(Student s)
+	{
+		int check=0;
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		return check;
+	}
+}
