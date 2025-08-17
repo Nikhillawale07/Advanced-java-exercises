@@ -1,2 +1,2 @@
-# Advanced-java-exercises
-Advanced-java-exercises
+#jdbc-crud-operations
+jdbc-crud-operations
